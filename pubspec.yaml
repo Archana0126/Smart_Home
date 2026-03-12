@@ -1,0 +1,36 @@
+name: smart_home_project
+description: A new Flutter project
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  go_router: ^14.2.0
+  firebase_core: ^4.5.0
+  firebase_auth: ^6.2.0
+  cloud_firestore: ^6.1.3
+  get: ^4.7.3
+  pinput: ^6.0.2
+  country_code_picker: ^3.0.0
+  google_sign_in: ^6.2.2  
+  wifi_scan: ^0.4.1+2
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.0
+  wifi_iot: ^0.3.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
